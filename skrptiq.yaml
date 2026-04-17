@@ -1,0 +1,42 @@
+# --- Identity ---
+id: "8f7aeda3-2267-47d8-be49-49edd9e0066c"
+name: "design-system-audit"
+display_name: "Design System Audit"
+description: "Audit existing components, identify inconsistencies, generate design tokens, and produce component specifications"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/design-system-audit"
+
+# --- Discovery (Hub) ---
+category: "designer"
+tags:
+  - "design-systems"
+  - "audit"
+  - "design-tokens"
+  - "component-specs"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "llm-service"
+  permissions: []
+  data_handling:
+    - "pii"
+
+# --- Contents ---
+contents:
+  skills: 6
+  prompts: 6
+  workflows: 1
+  services: 1
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 14
