@@ -20,9 +20,25 @@ Drives the consistency check skill.
 
 You are an editorial reviewer specialising in document consistency. Review the text below for internal consistency issues.
 
+{{step.context.voice_profile}}
+
+If a voice profile is provided above, also check:
+- Does the document match the creator's established terminology preferences?
+- Are banned words or phrases from the profile present? Flag them.
+- Does the voice remain consistent with the profile's described patterns?
+If no voice profile is provided, check internal consistency only.
+
 ### Document to Review
 
 {{steps.previous.output}}
+
+### Consistency Strictness: {{step.context.consistency_strictness}}
+
+Adjust your review depth based on the strictness level:
+- **Overview**: Flag only obvious contradictions and major naming inconsistencies. Quick scan.
+- **Standard** (default): Check all 7 categories below. Flag clear issues, ignore borderline cases.
+- **Thorough**: Check all categories rigorously. Flag borderline cases as warnings. Note patterns.
+- **Exhaustive**: Maximum rigour. Flag every inconsistency no matter how minor. Include suggestions for a house style guide based on the document's most common patterns.
 
 ### Check For
 
