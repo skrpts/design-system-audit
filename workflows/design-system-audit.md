@@ -32,17 +32,23 @@ composite_steps:
   - "consistency-check"
 execution:
   - skill: "component-inventory"
+    prompt: "catalogue-components"
     step_type: "synthesis"
   - skill: "consistency-analysis"
+    prompt: "analyse-consistency"
     step_type: "review"
   - skill: "token-generation"
+    prompt: "generate-tokens"
     step_type: "generation"
   - skill: "specification-writing"
+    prompt: "write-specifications"
     step_type: "generation"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
   - parallel:
     - skill: "consistency-check"
+      prompt: "check-consistency"
       step_type: "review"
 ---
 
