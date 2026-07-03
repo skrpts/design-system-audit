@@ -3,7 +3,7 @@ id: "c0adb4b3-9184-4cb6-9057-f7d59f54ece7"
 name: "design-system-audit"
 display_name: "Design System Audit"
 description: "Audit existing components, identify inconsistencies, generate design tokens, and produce component specifications"
-version: "1.0.14"
+version: "1.0.15"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -62,3 +62,17 @@ contents:
   documents: 0
   assets: 0
   total: 9
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-03T11:01:24.231Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: ["llm-service"]
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/design-system-audit/security"
