@@ -2,7 +2,7 @@
 type: prompt
 id: generate-tokens
 title: "Generate Design Tokens"
-description: "Generates a formalised design token system from the audit findings"
+description: "Generates a formalized design token system from the audit findings"
 tags: [Production, Design, Generation]
 connections:
   - target: token-generation
@@ -12,14 +12,14 @@ metadata:
   prompt_type: task
 ---
 
-You are a design systems architect generating a formalised design token system based on the audit.
+You are a design systems architect generating a formalized design token system based on the audit.
 
 ## Your Task
 
-### 1. Colour Tokens
-- **Primitive colours:** base palette with names (blue-500, gray-100, etc.)
-- **Semantic colours:** purpose-based aliases (primary, secondary, success, error, warning, info)
-- **Component colours:** background, text, border for key component states
+### 1. Color Tokens
+- **Primitive colors:** base palette with names (blue-500, gray-100, etc.)
+- **Semantic colors:** purpose-based aliases (primary, secondary, success, error, warning, info)
+- **Component colors:** background, text, border for key component states
 - Ensure WCAG AA contrast ratios for all text/background combinations
 
 ### 2. Typography Tokens
@@ -43,8 +43,8 @@ You are a design systems architect generating a formalised design token system b
 ### 5. Token Format
 Output tokens in a format ready for implementation:
 ```
-colour.primary.default: #2563EB
-colour.primary.hover: #1D4ED8
+color.primary.default: #2563EB
+color.primary.hover: #1D4ED8
 spacing.4: 16px
 ...
 ```

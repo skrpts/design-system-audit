@@ -1,7 +1,7 @@
 ---
 type: prompt
 id: analyse-consistency
-title: "Analyse Consistency"
+title: "Analyze Consistency"
 description: "Identifies inconsistencies and deviations across the component inventory"
 tags: [Production, Design, Review]
 connections:
@@ -17,7 +17,7 @@ You are a design systems auditor reviewing the component inventory for consisten
 ## Your Task
 
 ### 1. Visual Consistency
-- Colour usage: are colours applied consistently? Any one-off colour values?
+- Color usage: are colors applied consistently? Any one-off color values?
 - Typography: consistent type scale? Heading hierarchy respected?
 - Spacing: consistent spacing scale? Any arbitrary values?
 - Iconography: consistent style, size, and weight?
@@ -39,12 +39,12 @@ You are a design systems auditor reviewing the component inventory for consisten
 - Patterns implemented differently in different places
 
 ### 5. Accessibility Gaps
-- Colour contrast issues
+- Color contrast issues
 - Missing focus states
 - Keyboard navigation gaps
 - Screen reader considerations
 
-### 6. Prioritised Issues
+### 6. Prioritized Issues
 Rank all findings by severity (critical/major/minor) and effort to fix (low/medium/high).
 
 {{steps.previous.output}}

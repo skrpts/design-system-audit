@@ -52,7 +52,7 @@ For each major component in the inventory, produce a specification:
 **7. Usage Examples**
 - Do/Don't examples
 - Common patterns and compositions
-- Responsive behaviour
+- Responsive behavior
 
 **8. Token References**
 - Which design tokens this component uses

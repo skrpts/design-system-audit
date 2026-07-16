@@ -66,7 +66,7 @@ execution:
 
 ## Overview
 
-This workflow audits an existing design system — cataloguing components, identifying inconsistencies, generating a formalised token system, and producing component specifications. The output is a comprehensive audit report with actionable improvements and implementation-ready specs.
+This workflow audits an existing design system — cataloguing components, identifying inconsistencies, generating a formalized token system, and producing component specifications. The output is a comprehensive audit report with actionable improvements and implementation-ready specs.
 
 ## Pipeline Stages
 
@@ -74,9 +74,9 @@ This workflow audits an existing design system — cataloguing components, ident
 
 **Input:** System description, brand guidelines, target platforms
 
-Invoke the **component-inventory** skill to catalogue all design components, patterns, and existing tokens.
+Invoke the **component-inventory** skill to catalog all design components, patterns, and existing tokens.
 
-**Output:** Complete component catalogue with variants, usage contexts, and gap analysis.
+**Output:** Complete component catalog with variants, usage contexts, and gap analysis.
 
 ### Stage 2: Consistency Analysis
 
@@ -84,13 +84,13 @@ Invoke the **component-inventory** skill to catalogue all design components, pat
 
 Invoke the **consistency-analysis** skill to identify visual, interaction, naming, and accessibility inconsistencies across the system.
 
-**Output:** Prioritised consistency issues ranked by severity and effort.
+**Output:** Prioritized consistency issues ranked by severity and effort.
 
 ### Stage 3: Token Generation
 
 **Input:** Audit findings from Stages 1-2
 
-Invoke the **token-generation** skill to produce a formalised design token system covering colours, typography, spacing, and other primitives.
+Invoke the **token-generation** skill to produce a formalized design token system covering colors, typography, spacing, and other primitives.
 
 **Output:** Complete token specification ready for implementation.
 
@@ -121,16 +121,16 @@ Invoke **consistency-check** to verify token references and terminology are cons
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
 | `{{input.system_description}}` | Yes | Your current design system | `React component library with buttons, forms, cards, modals...` |
-| `{{input.brand_guidelines}}` | No | Brand colours, typography, principles | `Primary: #2563EB, Font: Inter` |
+| `{{input.brand_guidelines}}` | No | Brand colors, typography, principles | `Primary: #2563EB, Font: Inter` |
 | `{{input.platforms}}` | No | Target platforms | `Web and iOS` |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| Component inventory | Complete catalogue with variants and gap analysis |
-| Consistency audit | Prioritised issues by severity |
-| Design tokens | Formalised token system for colours, typography, spacing |
+| Component inventory | Complete catalog with variants and gap analysis |
+| Consistency audit | Prioritized issues by severity |
+| Design tokens | Formalized token system for colors, typography, spacing |
 | Component specifications | Detailed specs for major components |
 
 ## Setup

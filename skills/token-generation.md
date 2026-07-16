@@ -2,7 +2,7 @@
 type: skill
 id: token-generation
 title: "Token Generation"
-description: "Generates design tokens for colours, spacing, typography, and other primitives"
+description: "Generates design tokens for colors, spacing, typography, and other primitives"
 tags: [Production, Design, Generation]
 connections:
   - target: llm-service
@@ -11,7 +11,7 @@ connections:
 
 ## Capability
 
-Generates design tokens for colours, spacing, typography, and other primitives
+Generates design tokens for colors, spacing, typography, and other primitives
 
 ## When to Use
 

@@ -2,7 +2,7 @@
 type: skill
 id: component-inventory
 title: "Component Inventory"
-description: "Catalogues existing design components from descriptions, screenshots, or code references"
+description: "Catalogs existing design components from descriptions, screenshots, or code references"
 tags: [Production, Design, Audit]
 connections:
   - target: llm-service
@@ -11,7 +11,7 @@ connections:
 
 ## Capability
 
-Catalogues existing design components from descriptions, screenshots, or code references
+Catalogs existing design components from descriptions, screenshots, or code references
 
 ## When to Use
 

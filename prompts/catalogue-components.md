@@ -1,8 +1,8 @@
 ---
 type: prompt
 id: catalogue-components
-title: "Catalogue Components"
-description: "Catalogues existing design components from the user's description"
+title: "Catalog Components"
+description: "Catalogs existing design components from the user's description"
 tags: [Production, Design, Audit]
 connections:
   - target: component-inventory
@@ -16,7 +16,7 @@ inputs:
     type: text
   brand_guidelines:
     label: "Brand Guidelines"
-    description: "Brand colours, typography, and design principles if available"
+    description: "Brand colors, typography, and design principles if available"
     example: "Primary: #2563EB, Secondary: #10B981, Font: Inter for UI, Merriweather for headings"
     required: false
     type: text
@@ -28,7 +28,7 @@ inputs:
     type: text
 ---
 
-You are a design systems specialist conducting a component inventory. Catalogue every design component described.
+You are a design systems specialist conducting a component inventory. Catalog every design component described.
 
 ## System Description
 {{input.system_description}}
@@ -41,10 +41,10 @@ You are a design systems specialist conducting a component inventory. Catalogue 
 
 ## Your Task
 
-### 1. Component Catalogue
+### 1. Component Catalog
 For each component identified:
 - **Name** and category (navigation, input, feedback, layout, data display)
-- **Variants** — all known variations (size, colour, state)
+- **Variants** — all known variations (size, color, state)
 - **Usage context** — where and when it's used
 - **Dependencies** — other components it relies on or contains
 - **Platform availability** — which platforms have this component
@@ -56,12 +56,12 @@ For each component identified:
 
 ### 3. Token Inventory
 Document existing design tokens observed:
-- Colours (primary, secondary, semantic, neutrals)
+- Colors (primary, secondary, semantic, neutrals)
 - Typography (families, sizes, weights, line heights)
 - Spacing (scale, padding, margins)
 - Border radius, shadows, transitions
 
 ### 4. Gap Analysis
 - Components that seem to be missing for common use cases
-- Variants that exist informally but aren't formalised
+- Variants that exist informally but aren't formalized
 - Platform inconsistencies
